@@ -192,6 +192,9 @@ section.hero .down-arrow path {
   .menu {
     display: none;
   }
+  .logo {
+    color: black;
+  }
   nav {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -228,9 +231,6 @@ section.hero .down-arrow path {
     right: 0;
     width: 50%;
     height: 42em;
-  }
-  .logo {
-    color: black;
   }
   section.hero {
     color: black;

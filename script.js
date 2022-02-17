@@ -16,7 +16,7 @@ close.addEventListener("click", () => {
 
 window.addEventListener("scroll", () => {
   // Get scroll value
-  const scroll = document.documentElement.scrollTop;
+  const scroll = rootElement.scrollTop;
   if (scroll > 0) {
     header.classList.add("add-scroll");
     scrollToTopBtn.classList.add("show");

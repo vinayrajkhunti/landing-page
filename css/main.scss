@@ -184,6 +184,10 @@ section.hero {
     display: none;
   }
 
+  .logo {
+    color: black;
+  }
+
   nav {
     transform: translateX(0);
     position: unset;
@@ -222,10 +226,6 @@ section.hero {
     right: 0;
     width: 50%;
     height: 42em;
-  }
-
-  .logo {
-    color: black;
   }
 
   section.hero {
